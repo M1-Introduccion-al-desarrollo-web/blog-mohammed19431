@@ -1,0 +1,19 @@
+Feedback:
+La estructura de carpetas has de respetarla. En tu proyecto este punto es muy debil. Recuerda que las imagenes han de colocarse en una carpeta images. 
+Recuerda que el unico que puede estar en la raíz del proyecto es el index y en este caso tienes todos. Debes crear una carpeta pages para cars, hotees, etc. Además has dejado imagenes home-outline, gs.png y mail-outline,svg
+El orden es un requisito imprescindible el las buenas prácticas
+
+El texto tiene errores tipográficos como por ejemplo:
+   - "KINTAMPO WATER FALL" → debería ser **Kintampo Waterfall**
+   - “Ghana' highest” → falta el apóstrofe correcto: **Ghana's**
+   - "LARBANGA MOSQUE" → debería mantener el mismo estilo que otros títulos, idealmente con <h2> o <h3>.
+   - "fish species in the lake is the endemic..." → la frase queda inconclusa.
+
+  Puedes pedir a otros que revisen la ortografía
+
+  En el pie de página (`<footer>`):
+   - “Authour” → corregir a **Author**.
+   - Puedes envolver tu nombre y el copyright en un <p> para mantener consistencia visual.
+   - El ícono del correo tiene `alt="logo"` — mejor sería `alt="Email icon"` o `alt="Contact Mohammed"`.
+
+Considera usar <section> para dividir claramente las partes del contenido en <main>. Ej. una sección para la descripción, otra para el video.
