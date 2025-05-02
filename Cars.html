@@ -23,3 +23,33 @@
    
 </body>
 </html>
+
+
+<!-- 
+=== COMENTARIOS Y SUGERENCIAS ===
+
+1. Usar <ul> para envolver un <a> con una imagen (como en el "home") no es semánticamente correcto. Mejor usar un <nav> o un <div> para ese botón de navegación.
+
+2. Hay una etiqueta <em> no cerrada correctamente en:
+   <p><em> SOME MANUFUCTURED CARS IN GHANA<em></em></p>
+   Debería ser:
+   <p><em>SOME MANUFACTURED CARS IN GHANA</em></p>
+
+3. "MANUFUCTURED" está mal escrito. Debería ser **MANUFACTURED**.
+
+4. Varias etiquetas <img> tienen el atributo `alt` vacío o genérico ("cars"). Se recomienda usar descripciones únicas por imagen para accesibilidad (ej. “Vista lateral del modelo KTT”).
+
+5. Falta una estructura más clara y semántica: podrías usar secciones como `<header>`, `<main>`, y `<footer>`.
+
+6. Considera añadir estilos CSS (aunque sea embebido o en línea) para mejorar la presentación general (márgenes, separación entre imágenes, etc.).
+
+7. El título `<h3>` puede sustituirse por un `<h2>` si no hay un `<h1>` presente en el contenido visible.
+
+8. La página no tiene un `<h1>` visible que indique el propósito general. Considera agregar un título principal, como:
+   <h1>Carros y servicios de transporte en Ghana</h1>
+
+9. El atributo `alt="home otline"` tiene un error tipográfico: debería ser `alt="home outline"`.
+
+10. Considera agrupar las imágenes de autos dentro de una sección o un `<figure>` con su respectiva descripción (usando `<figcaption>`).
+
+-->
